@@ -1,11 +1,11 @@
 const { Pool } = require("pg");
 
 const pool = new Pool({
-  host: "isilo.db.elephantsql.com",
+  host: "DATABASE_HOST",
   port: 5432,
-  database: "unpxcmny",
-  user: "unpxcmny",
-  password: "P7KEdEKJY350JhgZcEBqSzYo9cSQsyKG",
+  database: "DATABASE_NAME",
+  user: "DATABASE_USERNAME",
+  password: "DATABASE_PASSWORD",
   max: 20,
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 2000,
