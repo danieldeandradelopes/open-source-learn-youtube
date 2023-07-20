@@ -6,9 +6,7 @@
 
 This `api` is used to tests, we have a little list of pokemons, use is very simple:
 
-We have `api` only a `GET`
-
-List all pokemons - `/pokemons`
+List all pokemons - `GET` `/pokemons`
 
 ```json=
 [
@@ -49,6 +47,18 @@ List all pokemons - `/pokemons`
     "type": "Fighting"
   }
 ]
+```
+
+Insert new pokemon - `POST` `/pokemons`
+
+Body of requistion:
+
+```json=
+{
+    "name": "Geodude",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
+    "type": "Fighting"
+}
 ```
 
 **To contribute:**
