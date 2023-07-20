@@ -7,7 +7,7 @@ function getAll() {
 function add({ name, image, type }) {
   const newPokemon = {
     id: Math.floor(Math.random() * 10000),
-    name,
+    name: "Nome errado",
     image,
     type,
   };
